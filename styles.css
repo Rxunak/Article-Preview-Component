@@ -47,10 +47,10 @@ main {
   width: 500px;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 #profilePicture {
@@ -75,7 +75,7 @@ main {
   font-size: 18px;
   line-height: 130%;
   letter-spacing: 0.12px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .profile {

@@ -8,19 +8,19 @@ const backPointer = document.getElementById("tooltipArrow");
 function showAndHidePopUp() {
   socialToast.classList.toggle("hidePopUp");
   backPointer.classList.toggle("hidePopUpBack");
+  socialToast.classList.toggle("disabled");
+  backPointer.classList.toggle("disabled");
+  profileDiv.classList.toggle("hideOriginalDiv");
+  secondProfile.classList.toggle("showOption");
 }
 
 popUp.addEventListener("click", showAndHidePopUp);
 
-function showAndHideMobile() {
+function showAndHideMobileSecond() {
+  socialToast.classList.toggle("hidePopUp");
+  backPointer.classList.toggle("hidePopUpBack");
   socialToast.classList.toggle("disabled");
   backPointer.classList.toggle("disabled");
-  profileDiv.classList.add("hideOriginalDiv");
-  secondProfile.classList.add("showOption");
-}
-popUp.addEventListener("click", showAndHideMobile);
-
-function showAndHideMobileSecond() {
   profileDiv.classList.remove("hideOriginalDiv");
   secondProfile.classList.remove("showOption");
 }
